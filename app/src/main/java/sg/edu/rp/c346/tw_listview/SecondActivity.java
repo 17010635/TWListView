@@ -29,23 +29,23 @@ public class SecondActivity extends AppCompatActivity {
         year = new ArrayList<CourseStructure>();
 
         if(selected == 1){
-            year.add(new CourseStructure("Year 1","C105", true));
-            year.add(new CourseStructure("Year 1","G101", false));
-            year.add(new CourseStructure("Year 1","C111", true));
+            year.add(new CourseStructure("C105", true));
+            year.add(new CourseStructure("G101", false));
+            year.add(new CourseStructure("C111", true));
             aa = new ModuleAdapter(this, R.layout.row, year);
             lvModules.setAdapter(aa);
 
         }else if(selected == 2){
-            year.add(new CourseStructure("Year 2","C208", true));
-            year.add(new CourseStructure("Year 2","C200", false));
-            year.add(new CourseStructure("Year 2","C346", true));
+            year.add(new CourseStructure("C208", true));
+            year.add(new CourseStructure("C200", false));
+            year.add(new CourseStructure("C346", true));
             aa = new ModuleAdapter(this, R.layout.row, year);
             lvModules.setAdapter(aa);
 
         }else{
-            year.add(new CourseStructure("Year 3","C347", true));
-            year.add(new CourseStructure("Year 3","C349", false));
-            year.add(new CourseStructure("Year 3","C302", true));
+            year.add(new CourseStructure("C347", true));
+            year.add(new CourseStructure("C349", false));
+            year.add(new CourseStructure("C302", true));
             aa = new ModuleAdapter(this, R.layout.row, year);
             lvModules.setAdapter(aa);
         }
