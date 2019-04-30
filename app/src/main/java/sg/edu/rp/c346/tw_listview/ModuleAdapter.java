@@ -31,7 +31,7 @@ public class ModuleAdapter extends ArrayAdapter<CourseStructure> {
         tvModuleName = rowView.findViewById(R.id.tvModule);
         ivStar = rowView.findViewById(R.id.ivImage);
         CourseStructure current = modules.get(position);
-        tvModuleName.setText(current.getYear());
+        tvModuleName.setText(current.getModule());
         if(current.isCom()) {
             ivStar.setImageResource(R.drawable.computer);
         }
