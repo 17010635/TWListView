@@ -33,7 +33,7 @@ public class ModuleAdapter extends ArrayAdapter<CourseStructure> {
         CourseStructure current = modules.get(position);
         tvModuleName.setText(current.getModule());
         if(current.isCom()) {
-            ivStar.setImageResource(R.drawable.computer);
+            ivStar.setImageResource(R.drawable.computerimage);
         }
         else {
             ivStar.setImageResource(R.drawable.tree);
