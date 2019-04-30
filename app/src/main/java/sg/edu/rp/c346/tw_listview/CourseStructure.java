@@ -3,25 +3,27 @@ package sg.edu.rp.c346.tw_listview;
 public class CourseStructure {
     private String year;
     private String module;
+    private boolean isCom;
 
-    public CourseStructure(String year, String module) {
+    public CourseStructure(String year, String module, boolean isCom) {
         this.year = year;
         this.module = module;
+        this.isCom = isCom;
     }
 
     public String getYear() {
         return year;
     }
 
-    public void setYear(String year) {
+    public void setName(String year) {
         this.year = year;
     }
 
-    public String getModule() {
-        return module;
+    public boolean isCom() {
+        return isCom;
     }
 
-    public void setModule(String module) {
-        this.module = module;
+    public void setCom(boolean com) {
+        isCom = com;
     }
 }
