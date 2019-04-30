@@ -9,6 +9,6 @@ import java.util.ArrayList;
 public class CustomAdapter extends ArrayAdapter<CourseStructure> {
     private  ArrayList<CourseStructure> course;
     private Context context;
-    private
+    private TextView tv 
 
 }
