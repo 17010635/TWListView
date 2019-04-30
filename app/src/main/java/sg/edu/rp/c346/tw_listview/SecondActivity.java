@@ -29,6 +29,7 @@ public class SecondActivity extends AppCompatActivity {
         year = new ArrayList<CourseStructure>();
 
         if(selected == 1){
+            tvYear.setText("Year 1");
             year.add(new CourseStructure("C105", true));
             year.add(new CourseStructure("G101", false));
             year.add(new CourseStructure("C111", true));
@@ -36,6 +37,7 @@ public class SecondActivity extends AppCompatActivity {
             lvModules.setAdapter(aa);
 
         }else if(selected == 2){
+            tvYear.setText("Year 2");
             year.add(new CourseStructure("C208", true));
             year.add(new CourseStructure("C200", false));
             year.add(new CourseStructure("C346", true));
@@ -43,6 +45,7 @@ public class SecondActivity extends AppCompatActivity {
             lvModules.setAdapter(aa);
 
         }else{
+            tvYear.setText("Year 3");
             year.add(new CourseStructure("C347", true));
             year.add(new CourseStructure("C349", false));
             year.add(new CourseStructure("C302", true));
