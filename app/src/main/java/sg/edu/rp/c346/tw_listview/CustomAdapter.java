@@ -6,8 +6,9 @@ import android.widget.ArrayAdapter;
 import java.util.ArrayList;
 
 
-public class CustomAdapter extends ArrayAdapter {
-    Context parent_context;
-    int layout_id;
-    ArrayList<>
+public class CustomAdapter extends ArrayAdapter<CourseStructure> {
+    private  ArrayList<CourseStructure> course;
+    private Context context;
+    private
+
 }
